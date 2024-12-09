@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>HalaSportowa</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="bg-white p-0">
+            <!-- Spinner Start -->
+            <div
+                id="spinner"
+                class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+            >
+                <div
+                    class="spinner-border text-primary"
+                    style="width: 3rem; height: 3rem"
+                    role="status"
+                >
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <!-- Spinner End -->
+
+            <!-- Navbar Start -->
+            <nav
+                class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+            >
+                <a
+                    href="index.html"
+                    class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5"
+                >
+                    <h1 class="m-0 text-primary">HalaSportowa</h1>
+                </a>
+                <button
+                    type="button"
+                    class="navbar-toggler me-4"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Strona Główna</a
+                        >
+                        <a href="#about" class="nav-item nav-link">O Nas</a>
+                        <a href="#service" class="nav-item nav-link">Usługi</a>
+                        <a href="#team" class="nav-item nav-link">Zespół</a>
+                        <a href="#features" class="nav-item nav-link"
+                            >Atrakcje</a
+                        >
+                        <a href="#contact" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+            <!-- Carousel Start -->
+            <div class="container-fluid p-0">
+                <div class="owl-carousel header-carousel position-relative">
+                    <div class="owl-carousel-item position-relative">
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-1.jpg"
+                            alt=""
+                        />
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                            style="background: rgba(43, 57, 64, 0.5)"
+                        >
+                            <div class="container">
+                                <div class="row justify-content-start">
+                                    <div class="col-10 col-lg-8">
+                                        <h1
+                                            class="display-3 text-white animated slideInDown mb-4"
+                                        >
+                                            Twoje Miejsce do Aktywności
+                                            Fizycznej
+                                        </h1>
+                                        <p
+                                            class="fs-5 fw-medium text-white mb-4 pb-2"
+                                        >
+                                            Oferujemy wynajem hali sportowej do
+                                            różnych dyscyplin. Treningi,
+                                            turnieje, a także organizacja
+                                            wydarzeń sportowych – wszystko w
+                                            jednym miejscu.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-2.jpg"
+                            alt=""
+                        />
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                            style="background: rgba(43, 57, 64, 0.5)"
+                        >
+                            <div class="container">
+                                <div class="row justify-content-start">
+                                    <div class="col-10 col-lg-8">
+                                        <h1
+                                            class="display-3 text-white animated slideInDown mb-4"
+                                        >
+                                            Doskonała Hala Sportowa dla Ciebie
+                                        </h1>
+                                        <p
+                                            class="fs-5 fw-medium text-white mb-4 pb-2"
+                                        >
+                                            Spędź aktywnie czas w naszej hali
+                                            sportowej. Przestrzeń dostosowana do
+                                            wielu dyscyplin i wydarzeń.
+                                            Zarezerwuj już teraz!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel End -->
+
+            <!-- Search Start -->
+            <div
+                class="container-fluid bg-primary mb-5 wow fadeIn"
+                data-wow-delay="0.1s"
+                style="padding: 35px"
+            ></div>
+            <!-- Search End -->
+
+            <!-- About Start -->
+            <div id="about" class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div
+                                class="row g-0 about-bg rounded overflow-hidden"
+                            >
+                                <div class="col-6 text-start">
+                                    <img
+                                        class="img-fluid w-100"
+                                        src="img/about-1.jpg"
+                                    />
+                                </div>
+                                <div class="col-6 text-start">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/about-2.jpg"
+                                        style="width: 85%; margin-top: 15%"
+                                    />
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/about-3.jpg"
+                                        style="width: 85%"
+                                    />
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img
+                                        class="img-fluid w-100"
+                                        src="img/about-4.jpg"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                            <h1 class="mb-4">
+                                Twoje Miejsce do Aktywności Fizycznej
+                            </h1>
+                            <p class="mb-4">
+                                Nasza hala sportowa oferuje przestrzeń do
+                                różnorodnych aktywności fizycznych. Znajdziesz u
+                                nas miejsce do organizacji treningów, turniejów
+                                i innych wydarzeń sportowych. Chcemy, aby każdy
+                                miał dostęp do wygodnego i bezpiecznego miejsca
+                                do uprawiania sportu.
+                            </p>
+                            <p class="mb-4">
+                                Nasza misja to promowanie aktywnego trybu życia.
+                                Wspieramy społeczność poprzez stworzenie
+                                nowoczesnej hali sportowej, która zaspokaja
+                                potrzeby zarówno amatorów, jak i profesjonalnych
+                                sportowców. Dzięki elastycznym godzinom otwarcia
+                                i atrakcyjnym warunkom wynajmu, każdy może
+                                znaleźć czas na trening.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- Services Start -->
+            <div id="service" class="container-xxl py-5">
+                <div class="container">
+                    <h1 class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        Usługi Naszej Hali Sportowej
+                    </h1>
+                    <p class="mb-5 text-center">
+                        Nasza hala sportowa oferuje szeroką gamę usług, które
+                        zaspokoją potrzeby zarówno amatorów, jak i
+                        profesjonalnych sportowców. Zapewniamy idealne warunki
+                        do treningów, turniejów i innych wydarzeń sportowych.
+                        Oferujemy przestronny obiekt, odpowiedni do różnych
+                        dyscyplin.
+                    </p>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <a class="cat-item rounded p-4" href="">
+                                <i
+                                    class="fa fa-3x fa-basketball-ball text-primary mb-4"
+                                ></i>
+                                <h6 class="mb-3">Wynajem Hali Sportowej</h6>
+                                <p class="mb-0">
+                                    Oferujemy wynajem naszej hali sportowej na
+                                    różne wydarzenia sportowe, turnieje, a także
+                                    treningi drużynowe. Elastyczne godziny
+                                    wynajmu dostosowane do Twoich potrzeb.
+                                </p>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <a class="cat-item rounded p-4" href="">
+                                <i
+                                    class="fa fa-3x fa-users text-primary mb-4"
+                                ></i>
+                                <h6 class="mb-3">Treningi Grupowe</h6>
+                                <p class="mb-0">
+                                    Organizujemy treningi grupowe dla osób w
+                                    każdym wieku. Zajęcia są prowadzone przez
+                                    doświadczonych trenerów, którzy pomogą Ci
+                                    poprawić swoją formę.
+                                </p>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <a class="cat-item rounded p-4" href="">
+                                <i
+                                    class="fa fa-3x fa-running text-primary mb-4"
+                                ></i>
+                                <h6 class="mb-3">
+                                    Turnieje i Wydarzenia Sportowe
+                                </h6>
+                                <p class="mb-0">
+                                    Organizujemy turnieje sportowe i wydarzenia,
+                                    które przyciągają pasjonatów sportu z całego
+                                    regionu. Idealne miejsce na zawody,
+                                    rozgrywki i inne sportowe imprezy.
+                                </p>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.7s"
+                        >
+                            <a class="cat-item rounded p-4" href="">
+                                <i
+                                    class="fa fa-3x fa-futbol text-primary mb-4"
+                                ></i>
+                                <h6 class="mb-3">
+                                    Zajęcia Sportowe Dla Dzieci
+                                </h6>
+                                <p class="mb-0">
+                                    Nasza hala oferuje także zajęcia sportowe
+                                    dla dzieci, które pomagają rozwijać
+                                    zdolności fizyczne w przyjaznej atmosferze.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Services End -->
+
+            <!-- Features Start -->
+            <div id="features" class="container-xxl py-5">
+                <div class="container">
+                    <h1 class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        Nasze Cechy i Zalety
+                    </h1>
+                    <p class="text-center mb-5">
+                        Nasza hala sportowa to nowoczesne miejsce, które oferuje
+                        szereg funkcji dostosowanych do różnych potrzeb
+                        sportowych. Oferujemy przestrzeń do treningów, turniejów
+                        oraz wydarzeń sportowych, zapewniając profesjonalne
+                        warunki do rozwoju fizycznego.
+                    </p>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <a class="cat-item rounded">
+                                <img
+                                    src="img/features-1.jpg"
+                                    style="width: 100%"
+                                    alt=""
+                                />
+                                <div class="p-4">
+                                    <h6 class="mb-3">
+                                        Przestronna i Nowoczesna Hala
+                                    </h6>
+                                    <p style="color: #333" class="mb-0">
+                                        Nasza hala to przestronny obiekt,
+                                        idealny do organizacji turniejów,
+                                        treningów i innych wydarzeń sportowych.
+                                        Oferujemy nowoczesne wyposażenie i
+                                        świetne warunki do uprawiania sportu.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <a class="cat-item rounded">
+                                <img
+                                    src="img/features-2.jpg"
+                                    style="width: 100%"
+                                    alt=""
+                                />
+                                <div class="p-4">
+                                    <h6 class="mb-3">
+                                        Elastyczny Czas Wynajmu
+                                    </h6>
+                                    <p style="color: #333" class="mb-0">
+                                        Oferujemy elastyczny czas wynajmu hali,
+                                        dostosowany do indywidualnych potrzeb.
+                                        Możesz wynająć naszą halę na godziny,
+                                        dni lub dłuższe okresy.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Features End -->
+
+            <!-- Testimonial Start -->
+            <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <h1 class="text-center">Co mówią nasi klienci</h1>
+                    <p class="text-center mb-5">
+                        Naszym celem jest dostarczanie wyjątkowych usług
+                        związanych z wynajmem hali sportowej, które robią
+                        różnicę. Ale nie wierz nam na słowo – posłuchaj opinii
+                        naszych klientów, którzy doświadczyli transformujących
+                        rezultatów dzięki naszej pomocy. Ich historie sukcesu
+                        motywują nas do dalszego rozwoju.
+                    </p>
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item bg-light rounded p-4">
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                "Współpraca z tym zespołem była przełomowa dla
+                                naszej organizacji. Dokładnie ocenili naszą halę
+                                sportową i wskazali kluczowe obszary do poprawy.
+                                Dzięki ich wsparciu udało nam się wdrożyć
+                                skuteczną strategię, która zwiększyła naszą
+                                wydajność i pozwoliła skupić się na rozwoju."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded"
+                                    src="img/testimonial-2.jpg"
+                                    style="
+                                        width: 50px;
+                                        height: 50px;
+                                        object-fit: cover;
+                                    "
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Michał Kowalski</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-4">
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                "Usługi wynajmu hali sportowej, które
+                                otrzymaliśmy, były wyjątkowe. Zespół pomógł nam
+                                w pełnej integracji narzędzi, które poprawiły
+                                naszą efektywność operacyjną. Jasność ich
+                                wskazówek dotyczących strategii pomogła nam
+                                osiągnąć sukces."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded"
+                                    src="img/testimonial-1.jpg"
+                                    style="
+                                        width: 50px;
+                                        height: 50px;
+                                        object-fit: cover;
+                                    "
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Agnieszka Nowak</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-4">
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                "Nasze doświadczenie z tym zespołem było
+                                znakomite. Poświęcili czas, by zrozumieć nasze
+                                potrzeby, i stworzyli plan dostosowany do
+                                wymagań naszej hali sportowej. Strategie, które
+                                zaproponowali, poprawiły naszą wydajność i
+                                sprawiły, że jesteśmy bardziej efektywni."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded"
+                                    src="img/testimonial-4.jpg"
+                                    style="
+                                        width: 50px;
+                                        height: 50px;
+                                        object-fit: cover;
+                                    "
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Paweł Zieliński</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-4">
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                "Gorąco polecam ich usługi związane z wynajmem
+                                hali sportowej. Pomogli nam nie tylko
+                                zmodernizować nasze działania, ale także
+                                dostarczyli cenne informacje na temat
+                                skutecznych strategii transformacji. Ich
+                                doświadczenie miało ogromny wpływ na naszą
+                                wydajność i reakcję na zmieniające się potrzeby
+                                rynku."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded"
+                                    src="img/testimonial-3.jpg"
+                                    style="
+                                        width: 50px;
+                                        height: 50px;
+                                        object-fit: cover;
+                                    "
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Anna Wiśniewska</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+            <!-- Team Start -->
+            <div id="team" class="container-xxl py-5">
+                <div class="container">
+                    <h1 class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        Eksperci w wynajmie hali sportowej
+                    </h1>
+                    <p class="text-center mb-5">
+                        Nasz zespół to pasjonaci, którzy specjalizują się w
+                        wynajmie hal sportowych. Z bogatym doświadczeniem w
+                        zarządzaniu obiektami sportowymi, pomagamy organizacjom
+                        osiągnąć sukces. Każdy członek zespołu wnosi unikalne
+                        umiejętności, co zapewnia kompleksowe podejście do
+                        potrzeb naszych klientów.
+                    </p>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-4 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <a class="cat-item rounded p-4">
+                                <img
+                                    src="img/team-2.jpg"
+                                    style="width: 100%; margin-bottom: 20px"
+                                    alt=""
+                                />
+                                <h6 class="mb-3">Marcin Nowak</h6>
+                                <p class="mb-0">
+                                    Specjalista ds. zarządzania halami
+                                    sportowymi
+                                </p>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-4 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <a class="cat-item rounded p-4">
+                                <img
+                                    src="img/team-1.jpg"
+                                    style="width: 100%; margin-bottom: 20px"
+                                    alt=""
+                                />
+                                <h6 class="mb-3">Katarzyna Kowalczyk</h6>
+                                <p class="mb-0">
+                                    Konsultantka ds. organizacji wydarzeń
+                                    sportowych
+                                </p>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-4 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <a class="cat-item rounded p-4">
+                                <img
+                                    src="img/team-4.jpg"
+                                    style="width: 100%; margin-bottom: 20px"
+                                    alt=""
+                                />
+                                <h6 class="mb-3">Jakub Wójcik</h6>
+                                <p class="mb-0">
+                                    Koordynator obiektów sportowych
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team End -->
+
+            <!-- Features Start -->
+            <div id="features" class="container-xxl py-5">
+                <div class="container">
+                    <h1 class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        Wskazówki dotyczące hali sportowej
+                    </h1>
+                    <p class="text-center mb-5">
+                        Bądź na bieżąco z naszymi najnowszymi wskazówkami i
+                        trendami dotyczącymi wynajmu hal sportowych. Nasz blog
+                        zawiera artykuły ekspertów omawiające kluczowe tematy,
+                        takie jak organizacja wydarzeń sportowych, optymalizacja
+                        przestrzeni oraz nowinki w zakresie technologii
+                        sportowych. Odkryj strategie, które poprawią zarządzanie
+                        przestrzenią sportową i pozwolą efektywnie wykorzystać
+                        dostępne zasoby.
+                    </p>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <a class="cat-item rounded">
+                                <img
+                                    src="img/blog-1.jpg"
+                                    style="width: 100%"
+                                    alt=""
+                                />
+                                <div class="p-4">
+                                    <h6 class="mb-3">
+                                        Jak zaplanować wydarzenie sportowe
+                                    </h6>
+                                    <p style="color: #333" class="mb-0">
+                                        Dowiedz się, jak zaplanować wydarzenie
+                                        sportowe w hali. Artykuł omawia
+                                        najlepsze praktyki w zakresie
+                                        organizacji, planowania przestrzeni oraz
+                                        jak zoptymalizować wykorzystanie
+                                        dostępnych zasobów.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <a class="cat-item rounded">
+                                <img
+                                    src="img/blog-2.jpg"
+                                    style="width: 100%"
+                                    alt=""
+                                />
+                                <div class="p-4">
+                                    <h6 class="mb-3">
+                                        Nowoczesne technologie w halach
+                                        sportowych
+                                    </h6>
+                                    <p style="color: #333" class="mb-0">
+                                        Dowiedz się, jak nowe technologie mogą
+                                        usprawnić działalność hal sportowych.
+                                        Artykuł przedstawia korzyści z wdrożenia
+                                        nowoczesnych rozwiązań, takich jak
+                                        systemy zarządzania przestrzenią i
+                                        automatyzacja procesów.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Features End -->
+
+            <!-- Contact Start -->
+            <div id="contact" class="container-xxl py-5">
+                <div class="container">
+                    <h1
+                        class="text-center mb-5 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        Skontaktuj się w sprawie wynajmu
+                    </h1>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="row gy-4">
+                                <div
+                                    class="col-md-12 wow fadeIn"
+                                    data-wow-delay="0.1s"
+                                >
+                                    <div
+                                        class="d-flex align-items-center bg-light rounded p-4"
+                                    >
+                                        <div
+                                            class="bg-white border rounded d-flex flex-shrink-0 align-items-center justify-content-center me-3"
+                                            style="width: 45px; height: 45px"
+                                        >
+                                            <i
+                                                class="fa fa-map-marker-alt text-primary"
+                                            ></i>
+                                        </div>
+                                        <span
+                                            >Studium Wychowania Fizycznego
+                                            Akademicki Ośrodek Sportu, Frontowa
+                                            2, 00-910 Warszawa, Polska</span
+                                        >
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-md-6 wow fadeIn"
+                                    data-wow-delay="0.3s"
+                                >
+                                    <div
+                                        class="d-flex align-items-center bg-light rounded p-4"
+                                    >
+                                        <div
+                                            class="bg-white border rounded d-flex flex-shrink-0 align-items-center justify-content-center me-3"
+                                            style="width: 45px; height: 45px"
+                                        >
+                                            <i
+                                                class="fa fa-envelope-open text-primary"
+                                            ></i>
+                                        </div>
+                                        <span>hala_sportowa@gmail.com</span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-md-6 wow fadeIn"
+                                    data-wow-delay="0.5s"
+                                >
+                                    <div
+                                        class="d-flex align-items-center bg-light rounded p-4"
+                                    >
+                                        <div
+                                            class="bg-white border rounded d-flex flex-shrink-0 align-items-center justify-content-center me-3"
+                                            style="width: 45px; height: 45px"
+                                        >
+                                            <i
+                                                class="fa fa-phone-alt text-primary"
+                                            ></i>
+                                        </div>
+                                        <span>+48 123 456 789</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-md-12 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1220.9629781265323!2d21.173372498394773!3d52.26288959999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ed192a2561147%3A0x58f9c8d822c0d672!2sMilitary%20Academy%20of%20Arts%20sports%20hall!5e0!3m2!1suk!2sua!4v1733773248843!5m2!1suk!2sua"
+                                width="100%"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact End -->
+
+            <!-- Footer Start -->
+            <div
+                class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn"
+                data-wow-delay="0.1s"
+            >
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-4 col-md-6">
+                            <h5 class="text-white mb-4">HalaSportowa</h5>
+                            <p>
+                                Dziękujemy za odwiedzenie naszej strony!
+                                Jesteśmy dedykowani w zapewnianiu najlepszych
+                                przestrzeni sportowych do wynajęcia. Skupiamy
+                                się na oferowaniu hal sportowych, które
+                                spełniają Twoje potrzeby. Oferujemy kompleksowe
+                                usługi i wygodne warunki dla sportowców i
+                                organizacji.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h5 class="text-white mb-4">Szybkie linki</h5>
+                            <a
+                                class="btn btn-link text-white-50"
+                                href="index.html"
+                                >Strona Główna</a
+                            >
+                            <a
+                                class="btn btn-link text-white-50"
+                                href="privacy-policy.html"
+                                >Prywatność</a
+                            >
+                            <a
+                                class="btn btn-link text-white-50"
+                                href="terms-of-use.html"
+                                >Warunki użytkowania</a
+                            >
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h5 class="text-white mb-4">Kontakt</h5>
+                            <p class="mb-2">
+                                <i class="fa fa-map-marker-alt me-3"></i>Studium
+                                Wychowania Fizycznego Akademicki Ośrodek Sportu,
+                                Frontowa 2, 00-910 Warszawa, Polska
+                            </p>
+                            <p class="mb-2">
+                                <i class="fa fa-phone-alt me-3"></i>+48665545854
+                            </p>
+                            <p class="mb-2">
+                                <i class="fa fa-envelope me-3"></i
+                                >hala_sportowa@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+                ><i class="bi bi-arrow-up"></i
+            ></a>
+
+            <!-- Cookie banner -->
+            <div class="cookie-wrapper show">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">Zgoda na pliki cookie</h2>
+                </div>
+
+                <div class="data">
+                    <p>
+                        Ta strona używa plików cookie, aby zapewnić Ci lepsze i
+                        bardziej odpowiednie doświadczenia podczas przeglądania.
+                        <a href="#">Dowiedz się więcej...</a>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">
+                        Akceptuję
+                    </button>
+                    <button class="cookie-button" id="declineBtn">
+                        Odrzuć
+                    </button>
+                </div>
+            </div>
+            <!-- End Cookie banner -->
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
